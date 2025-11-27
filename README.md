@@ -12,3 +12,4 @@ This project is about creating a website containing the general information of G
 # Frameworks/libraries used
 This project uses the Bootstrap library to function. Additionally, it also uses css style formatting for most of the design.
 #  Screenshot of your website
+![alt-text](https://github.com/javyyyy/project-root/blob/main/assets/img/screenshot.png)
