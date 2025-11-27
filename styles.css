@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;              
+  scrollbar-gutter: stable both-edges;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.hero-section {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7 !important;
+  color: #fff !important;
+}
+
+.dark-mode {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.dark-mode a,
+.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #1e1e1e !important;
+  border-color: #555 !important;
+  color: #fff !important;
+}
+
+/* CARDS */
+.dark-mode .card {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+
+/* HERO */
+.dark-mode .hero-section {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.navbar, .navbar * {
+  border: 1px solid transparent;
+}
+
+.navbar {
+  border-top: 0;
+  box-shadow: none;
+}
+
+.dark-mode .navbar,
+.dark-mode .navbar-collapse {
+  background-color: #000 !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+.navbar-collapse {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu {
+  min-width: 10rem;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #111 !important;
+  border-color: #222 !important;
+}
+
+.dark-mode .dropdown-item {
+  color: #e9ecef !important;
+}
+
+.dark-mode .dropdown-item:hover,
+.dark-mode .dropdown-item:focus {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+#themeToggle {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px !important;
+  min-width: 40px !important;
+  height: 40px !important;
+
+  padding: 0 !important;
+  margin-left: 0.75rem;          
+  border-radius: 6px !important;
+
+  box-sizing: border-box !important;
+}
+
+#themeToggle i {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 992px) {
+  #themeToggle {
+    padding: 6px 12px !important;
+    width: auto !important;
+    min-width: 72px !important;
+    min-height: 40px !important;
+    border-radius: 20px !important;
+  }
+}
+
+.btn-outline-light:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #fff !important;
+}
+
+.dark-mode .btn-outline-light:hover {
+  background-color: #f8f9fa !important;
+  color: #000 !important;
+}
